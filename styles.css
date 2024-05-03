@@ -3,13 +3,13 @@ body {
   margin: 0;
   padding: 0;
   background-color: #1a1a1a; /* Darker gray for the body background */
-  color: white; /* Default white text for headings and other elements */
+  color: white; /* Default white text */
 }
 
 header {
   background: linear-gradient(to bottom, #444, #111); /* Gradient from gray to black */
   color: white; /* White text in the header */
-  padding: 15px; /* Increased padding for a thicker header */
+  padding: 15px; /* Padding for a thicker header */
   text-align: center;
 }
 
@@ -31,23 +31,23 @@ nav a:hover {
 }
 
 h1 {
-  color: white;
+  color: white; /* White text for the header */
 }
 
 h2 {
-  color: #ccc;
+  color: #ccc; /* Light gray for the h2 headers */
 }
 
 p {
-  color: white;
+  color: white; /* White text for paragraph content */
 }
 
 ul {
-  color: white;
+  color: white; /* White text for unordered list items */
 }
 
 li {
-  margin-bottom: 10px;
+  margin-bottom: 10px; /* Add spacing between list items */
 }
 
 .content {
