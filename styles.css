@@ -2,13 +2,48 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #f5f5f5;
+  background-color: #333; /* Dark gray background for the body */
+}
+
+header {
+  background-color: #444; /* Gray background for the header */
+  color: white; /* White text for the header */
+  padding: 10px;
+  text-align: center;
+}
+
+nav {
+  background-color: #555; /* Darker gray for the navigation bar */
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+nav a:hover {
+  text-decoration: underline;
 }
 
 h1 {
-  color: #333;
+  color: white; /* White header text */
 }
 
 p {
-  color: #666;
+  color: #bbb; /* Lighter gray text for paragraphs */
+}
+
+.content {
+  padding: 20px;
+}
+
+footer {
+  background-color: #444; /* Matching the header background */
+  color: white; /* White text for the footer */
+  text-align: center;
+  padding: 10px;
 }
