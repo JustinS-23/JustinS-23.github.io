@@ -2,18 +2,19 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #333; /* Dark gray background for the body */
+  background-color: black; /* Black background for the body */
+  color: white; /* White text throughout the website */
 }
 
 header {
-  background-color: #444; /* Gray background for the header */
-  color: white; /* White text for the header */
-  padding: 10px;
+  background: linear-gradient(to bottom, #444, #111); /* Gradient from gray to black */
+  color: white; /* White text in the header */
+  padding: 15px; /* Increased padding for a thicker header */
   text-align: center;
 }
 
 nav {
-  background-color: #555; /* Darker gray for the navigation bar */
+  background-color: #222; /* Very dark gray for the navigation bar */
   color: white;
   text-align: center;
   padding: 10px;
@@ -30,11 +31,11 @@ nav a:hover {
 }
 
 h1 {
-  color: white; /* White header text */
+  color: white; /* White text for the header */
 }
 
 p {
-  color: #bbb; /* Lighter gray text for paragraphs */
+  color: white; /* Consistent white text for paragraphs */
 }
 
 .content {
@@ -42,7 +43,7 @@ p {
 }
 
 footer {
-  background-color: #444; /* Matching the header background */
+  background-color: #222; /* Matching the navigation bar background */
   color: white; /* White text for the footer */
   text-align: center;
   padding: 10px;
