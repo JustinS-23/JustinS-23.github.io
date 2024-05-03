@@ -31,11 +31,19 @@ nav a:hover {
 }
 
 h1 {
-  color: white; /* White text for the header */
+  color: white;
 }
 
 p {
-  color: #ccc; /* Light gray for paragraph text */
+  color: #ccc;
+}
+
+ul {
+  color: #ccc;
+}
+
+li {
+  margin-bottom: 10px;
 }
 
 .content {
