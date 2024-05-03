@@ -34,12 +34,16 @@ h1 {
   color: white;
 }
 
-p {
+h2 {
   color: #ccc;
 }
 
+p {
+  color: white;
+}
+
 ul {
-  color: #ccc;
+  color: white;
 }
 
 li {
