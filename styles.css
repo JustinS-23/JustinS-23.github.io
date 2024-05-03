@@ -2,8 +2,8 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background-color: black; /* Black background for the body */
-  color: white; /* White text throughout the website */
+  background-color: #1a1a1a; /* Darker gray for the body background */
+  color: white; /* Default white text for headings and other elements */
 }
 
 header {
@@ -35,11 +35,12 @@ h1 {
 }
 
 p {
-  color: light-gray; /* Consistent white text for paragraphs */
+  color: #ccc; /* Light gray for paragraph text */
 }
 
 .content {
   padding: 20px;
+  background-color: #252525; /* Slightly darker background for content */
 }
 
 footer {
